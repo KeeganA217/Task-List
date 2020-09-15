@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task List</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="title">
+    <h2>To-Do List</h2>
+  </div>
+  <div class="container">
+    <form class="task-input">
+      <h4>New Task</h4>
+      <input type="text" name="New Task" id="new-task" class="input">
+      <div class="add-btn">
+        <input type="submit" value="Add Task" id="add-task" class="btn">
+      </div>
+      <h4>Filter Tasks</h4>
+      <div class="filter">
+        <input type="text" name="Filter" id="filter-tasks" class="input">
+      </div>
+    </form>
+    <div class="view-list">
+      <ul class="list-items"></ul>
+      <div class="clear-tasks">
+        <input type="button" value="Clear Tasks" id="clear" class="btn">
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>

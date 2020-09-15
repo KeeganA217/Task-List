@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "/Users/keegan/Downloads/modern_js_udemy_projects-master/tasklist_project"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Task List"
+	}
+}
